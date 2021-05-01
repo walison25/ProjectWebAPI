@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ProjectWeb.Lib.Models
@@ -10,8 +9,5 @@ namespace ProjectWeb.Lib.Models
         [Key]
         public int IdCourse { get; set; }
         public string CourseName { get; set; }
-
-      
-
     }
 }

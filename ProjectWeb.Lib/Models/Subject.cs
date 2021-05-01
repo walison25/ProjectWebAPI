@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace ProjectWeb.Lib.Models
 {
@@ -15,7 +14,5 @@ namespace ProjectWeb.Lib.Models
 
         public int IdTeacher { get; set; }
         public virtual Teacher Teacher { get; set; }
-
-
     }
 }
